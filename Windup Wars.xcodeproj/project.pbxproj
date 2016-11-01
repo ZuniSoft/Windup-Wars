@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E106E6391DC7A39F0005D0CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6381DC7A39F0005D0CA /* AppDelegate.swift */; };
-		E106E63B1DC7A39F0005D0CA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E106E63A1DC7A39F0005D0CA /* GameScene.sks */; };
-		E106E63D1DC7A39F0005D0CA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E106E63C1DC7A39F0005D0CA /* Actions.sks */; };
 		E106E63F1DC7A39F0005D0CA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E63E1DC7A39F0005D0CA /* GameScene.swift */; };
 		E106E6411DC7A39F0005D0CA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6401DC7A39F0005D0CA /* GameViewController.swift */; };
 		E106E6441DC7A39F0005D0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E106E6421DC7A39F0005D0CA /* Main.storyboard */; };
 		E106E6461DC7A39F0005D0CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E106E6451DC7A39F0005D0CA /* Assets.xcassets */; };
 		E106E6491DC7A39F0005D0CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E106E6471DC7A39F0005D0CA /* LaunchScreen.storyboard */; };
 		E106E6541DC7A39F0005D0CA /* Windup_WarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6531DC7A39F0005D0CA /* Windup_WarsTests.swift */; };
+		E106E65F1DC7B8840005D0CA /* Windup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E65E1DC7B8840005D0CA /* Windup.swift */; };
+		E106E6611DC7BBAF0005D0CA /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6601DC7BBAF0005D0CA /* Array2D.swift */; };
+		E106E6631DC7BCDD0005D0CA /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6621DC7BCDD0005D0CA /* Level.swift */; };
+		E106E6671DC7CABF0005D0CA /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6661DC7CABF0005D0CA /* Tile.swift */; };
+		E106E6691DC7CB210005D0CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6681DC7CB210005D0CA /* Extensions.swift */; };
+		E106E6721DC7CEDC0005D0CA /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = E106E66D1DC7CEDC0005D0CA /* Level_0.json */; };
+		E106E6731DC7CEDC0005D0CA /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = E106E66E1DC7CEDC0005D0CA /* Level_1.json */; };
+		E106E6741DC7CEDC0005D0CA /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = E106E66F1DC7CEDC0005D0CA /* Level_2.json */; };
+		E106E6751DC7CEDC0005D0CA /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = E106E6701DC7CEDC0005D0CA /* Level_3.json */; };
+		E106E6761DC7CEDC0005D0CA /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = E106E6711DC7CEDC0005D0CA /* Level_4.json */; };
+		E106E6791DC7E5880005D0CA /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6781DC7E5880005D0CA /* Swap.swift */; };
+		E106E6801DC7F5D10005D0CA /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E106E67A1DC7F5D10005D0CA /* Chomp.wav */; };
+		E106E6811DC7F5D10005D0CA /* Drip.wav in Resources */ = {isa = PBXBuildFile; fileRef = E106E67B1DC7F5D10005D0CA /* Drip.wav */; };
+		E106E6821DC7F5D10005D0CA /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = E106E67C1DC7F5D10005D0CA /* Error.wav */; };
+		E106E6831DC7F5D10005D0CA /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = E106E67D1DC7F5D10005D0CA /* Ka-Ching.wav */; };
+		E106E6841DC7F5D10005D0CA /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E106E67E1DC7F5D10005D0CA /* Mining by Moonlight.mp3 */; };
+		E106E6851DC7F5D10005D0CA /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = E106E67F1DC7F5D10005D0CA /* Scrape.wav */; };
+		E106E6871DC7F7440005D0CA /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106E6861DC7F7440005D0CA /* Chain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +47,6 @@
 /* Begin PBXFileReference section */
 		E106E6351DC7A39F0005D0CA /* Windup Wars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Windup Wars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E106E6381DC7A39F0005D0CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E106E63A1DC7A39F0005D0CA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E106E63C1DC7A39F0005D0CA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E106E63E1DC7A39F0005D0CA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E106E6401DC7A39F0005D0CA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E106E6431DC7A39F0005D0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +56,24 @@
 		E106E64F1DC7A39F0005D0CA /* Windup WarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Windup WarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E106E6531DC7A39F0005D0CA /* Windup_WarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Windup_WarsTests.swift; sourceTree = "<group>"; };
 		E106E6551DC7A39F0005D0CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E106E65E1DC7B8840005D0CA /* Windup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Windup.swift; sourceTree = "<group>"; };
+		E106E6601DC7BBAF0005D0CA /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		E106E6621DC7BCDD0005D0CA /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		E106E6661DC7CABF0005D0CA /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		E106E6681DC7CB210005D0CA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E106E66D1DC7CEDC0005D0CA /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		E106E66E1DC7CEDC0005D0CA /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		E106E66F1DC7CEDC0005D0CA /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		E106E6701DC7CEDC0005D0CA /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		E106E6711DC7CEDC0005D0CA /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		E106E6781DC7E5880005D0CA /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
+		E106E67A1DC7F5D10005D0CA /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
+		E106E67B1DC7F5D10005D0CA /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drip.wav; sourceTree = "<group>"; };
+		E106E67C1DC7F5D10005D0CA /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
+		E106E67D1DC7F5D10005D0CA /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
+		E106E67E1DC7F5D10005D0CA /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
+		E106E67F1DC7F5D10005D0CA /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
+		E106E6861DC7F7440005D0CA /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,14 +116,21 @@
 			isa = PBXGroup;
 			children = (
 				E106E6381DC7A39F0005D0CA /* AppDelegate.swift */,
-				E106E63A1DC7A39F0005D0CA /* GameScene.sks */,
-				E106E63C1DC7A39F0005D0CA /* Actions.sks */,
+				E106E6601DC7BBAF0005D0CA /* Array2D.swift */,
+				E106E6451DC7A39F0005D0CA /* Assets.xcassets */,
+				E106E6861DC7F7440005D0CA /* Chain.swift */,
+				E106E6681DC7CB210005D0CA /* Extensions.swift */,
 				E106E63E1DC7A39F0005D0CA /* GameScene.swift */,
 				E106E6401DC7A39F0005D0CA /* GameViewController.swift */,
-				E106E6421DC7A39F0005D0CA /* Main.storyboard */,
-				E106E6451DC7A39F0005D0CA /* Assets.xcassets */,
-				E106E6471DC7A39F0005D0CA /* LaunchScreen.storyboard */,
 				E106E64A1DC7A39F0005D0CA /* Info.plist */,
+				E106E6471DC7A39F0005D0CA /* LaunchScreen.storyboard */,
+				E106E6421DC7A39F0005D0CA /* Main.storyboard */,
+				E106E6621DC7BCDD0005D0CA /* Level.swift */,
+				E106E6781DC7E5880005D0CA /* Swap.swift */,
+				E106E6661DC7CABF0005D0CA /* Tile.swift */,
+				E106E65E1DC7B8840005D0CA /* Windup.swift */,
+				E106E66C1DC7CEDC0005D0CA /* Levels */,
+				E106E6771DC7D31C0005D0CA /* Sounds */,
 			);
 			path = "Windup Wars";
 			sourceTree = "<group>";
@@ -103,6 +142,32 @@
 				E106E6551DC7A39F0005D0CA /* Info.plist */,
 			);
 			path = "Windup WarsTests";
+			sourceTree = "<group>";
+		};
+		E106E66C1DC7CEDC0005D0CA /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				E106E66D1DC7CEDC0005D0CA /* Level_0.json */,
+				E106E66E1DC7CEDC0005D0CA /* Level_1.json */,
+				E106E66F1DC7CEDC0005D0CA /* Level_2.json */,
+				E106E6701DC7CEDC0005D0CA /* Level_3.json */,
+				E106E6711DC7CEDC0005D0CA /* Level_4.json */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		E106E6771DC7D31C0005D0CA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E106E67A1DC7F5D10005D0CA /* Chomp.wav */,
+				E106E67B1DC7F5D10005D0CA /* Drip.wav */,
+				E106E67C1DC7F5D10005D0CA /* Error.wav */,
+				E106E67D1DC7F5D10005D0CA /* Ka-Ching.wav */,
+				E106E67E1DC7F5D10005D0CA /* Mining by Moonlight.mp3 */,
+				E106E67F1DC7F5D10005D0CA /* Scrape.wav */,
+			);
+			name = Sounds;
+			path = Levels/Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,10 +256,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E106E6441DC7A39F0005D0CA /* Main.storyboard in Resources */,
-				E106E63B1DC7A39F0005D0CA /* GameScene.sks in Resources */,
+				E106E6811DC7F5D10005D0CA /* Drip.wav in Resources */,
+				E106E6831DC7F5D10005D0CA /* Ka-Ching.wav in Resources */,
+				E106E6741DC7CEDC0005D0CA /* Level_2.json in Resources */,
+				E106E6751DC7CEDC0005D0CA /* Level_3.json in Resources */,
+				E106E6841DC7F5D10005D0CA /* Mining by Moonlight.mp3 in Resources */,
+				E106E6851DC7F5D10005D0CA /* Scrape.wav in Resources */,
+				E106E6821DC7F5D10005D0CA /* Error.wav in Resources */,
+				E106E6731DC7CEDC0005D0CA /* Level_1.json in Resources */,
 				E106E6461DC7A39F0005D0CA /* Assets.xcassets in Resources */,
 				E106E6491DC7A39F0005D0CA /* LaunchScreen.storyboard in Resources */,
-				E106E63D1DC7A39F0005D0CA /* Actions.sks in Resources */,
+				E106E6721DC7CEDC0005D0CA /* Level_0.json in Resources */,
+				E106E6801DC7F5D10005D0CA /* Chomp.wav in Resources */,
+				E106E6761DC7CEDC0005D0CA /* Level_4.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,9 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E106E6631DC7BCDD0005D0CA /* Level.swift in Sources */,
 				E106E63F1DC7A39F0005D0CA /* GameScene.swift in Sources */,
 				E106E6411DC7A39F0005D0CA /* GameViewController.swift in Sources */,
+				E106E6691DC7CB210005D0CA /* Extensions.swift in Sources */,
+				E106E6671DC7CABF0005D0CA /* Tile.swift in Sources */,
+				E106E6871DC7F7440005D0CA /* Chain.swift in Sources */,
+				E106E65F1DC7B8840005D0CA /* Windup.swift in Sources */,
 				E106E6391DC7A39F0005D0CA /* AppDelegate.swift in Sources */,
+				E106E6611DC7BBAF0005D0CA /* Array2D.swift in Sources */,
+				E106E6791DC7E5880005D0CA /* Swap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +436,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S63L4926ND;
 				INFOPLIST_FILE = "Windup Wars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zunisoft.io.Windup-Wars";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zunisoft.io.windupwars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -368,10 +451,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S63L4926ND;
 				INFOPLIST_FILE = "Windup Wars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zunisoft.io.Windup-Wars";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zunisoft.io.windupwars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -424,6 +509,7 @@
 				E106E65A1DC7A39F0005D0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E106E65B1DC7A39F0005D0CA /* Build configuration list for PBXNativeTarget "Windup WarsTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +518,7 @@
 				E106E65D1DC7A39F0005D0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +21,52 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="haB-6X-PR6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Windup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsH-X0-l7S">
+                                <rect key="frame" x="16" y="287" width="343" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="tH2-1F-XW4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="58"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTV-3d-nQJ">
+                                <rect key="frame" x="16" y="368" width="343" height="48"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="58"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QTV-3d-nQJ" firstAttribute="trailing" secondItem="AsH-X0-l7S" secondAttribute="trailing" id="3zD-1F-yZB"/>
+                            <constraint firstItem="AsH-X0-l7S" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="267" id="AiP-IH-und"/>
+                            <constraint firstItem="QTV-3d-nQJ" firstAttribute="top" secondItem="AsH-X0-l7S" secondAttribute="bottom" constant="8" symbolic="YES" id="LxI-Cy-sno"/>
+                            <constraint firstItem="AsH-X0-l7S" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="UqG-bW-mA8"/>
+                            <constraint firstItem="QTV-3d-nQJ" firstAttribute="leading" secondItem="AsH-X0-l7S" secondAttribute="leading" id="Y9V-wa-dJ4"/>
+                            <constraint firstItem="haB-6X-PR6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-16" id="bz5-qy-tp0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="haB-6X-PR6" secondAttribute="trailing" constant="-16" id="jYR-cZ-mM7"/>
+                            <constraint firstItem="haB-6X-PR6" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="nyJ-CC-04F"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="haB-6X-PR6" secondAttribute="bottom" id="sAT-my-GyI"/>
+                            <constraint firstItem="AsH-X0-l7S" firstAttribute="centerX" secondItem="haB-6X-PR6" secondAttribute="centerX" id="sHI-sz-dgZ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="QTV-3d-nQJ" secondAttribute="bottom" constant="251" id="ugK-k4-gPl"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Splash" width="313" height="313"/>
+    </resources>
 </document>
